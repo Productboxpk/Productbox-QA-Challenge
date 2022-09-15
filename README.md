@@ -4,7 +4,7 @@
 
 ## Getting Started
 
-##### I have provided you the html file in this repo which you can simply download or you may fork this repository and test it.
+##### I have provided you the html file in this repo which you can simply download or you may clone this repository and test it.
 
 ## Overview
 
