@@ -18,9 +18,9 @@
 
 ## Bonus
 
-    ##### * Fix few of the problems you identified and email the html file as well.
-    ##### - Suggest solution to the problem.
-    ##### - Identify problem at the code level and suggest the solution to the engineer.
+   ##### 1. Fix few of the problems you identified and email the html file as well.
+   ##### 2. Suggest solution to the problem.
+   ##### 2. Identify problem at the code level and suggest the solution to the engineer.
 
 ## Questions / Problems / Stuck?
 
