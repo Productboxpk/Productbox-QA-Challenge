@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Buggy Calculator</title>
+</head>
+<body>
+    <div id="dashboard-navbar">
+        <h3>Buggy Website</h3>
+        <a href="index.html" id="sign-out">Sign out</a>
+    </div>
+    <h1 id="welcome-h1">Welcome {FullName}, best of luck for your interview</h1>
+
+    <script>
+        // Redirect user if he is signed out
+        const loggedin = localStorage.getItem("loggedin");
+        if(loggedin == 0) {
+            window.location = "index.html";
+        }
+        // Sign out functionality
+        const signOutButton = document.querySelector("#sign-out");
+        signOutButton.addEventListener("click", (event) => {
+            localStorage.setItem("loggedin", 0);
+            localStorage.setItem("fullName", null);
+        });
+        // Set fullname in h1 functionality
+        const fullName = localStorage.getItem("fullName");
+        const h1 = document.querySelector("#welcome-h1");
+        h1.innerHTML = `Welcome ${fullName ? fullName : "N/A"}, best of luck for your interview`;
+    </script>
+</body>
+</html>

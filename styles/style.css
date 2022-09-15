@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: Poppins;
+}
+#wrapper {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    padding-top: 50px;
+}
+#wrapper form {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 20px 20px;
+}
+#wrapper form h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 0;
+}
+#wrapper form label {
+    display: block;
+}
+#wrapper form input {
+    width: 100%;
+    padding: 7px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+#radio-wrapper label {
+    display: inline-block !important;
+}
+#radio-wrapper input {
+    width: 10px !important;
+}
+.form-group {
+    margin-top: 10px;
+}
+.form-group span {
+    color: crimson;
+}
+.form-group input {
+    margin-top: 5px;
+}
+.form-group button {
+    margin-top: 7px;
+    background-color: dodgerblue;
+    color: white;
+    padding: 8px 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+.form-group button {
+    text-decoration: none;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 7px;
+    background-color: dodgerblue;
+    color: white;
+    padding: 4px 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+#dashboard-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: orange;
+}
+#dashboard-navbar a {
+    text-decoration: none;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+#welcome-h1 {
+    margin-left: 20px;
+}
