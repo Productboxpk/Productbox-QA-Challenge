@@ -11,7 +11,7 @@
 <body>
     <div id="dashboard-navbar">
         <h3>Buggy Website</h3>
-        <a href="index.html" id="sign-out">Sign out</a>
+        <a href="Buggy Website.html" id="sign-out">Sign out</a>
     </div>
     <h1 id="welcome-h1">Welcome {FullName}, best of luck for your interview</h1>
 
@@ -19,7 +19,7 @@
         // Redirect user if he is signed out
         const loggedin = localStorage.getItem("loggedin");
         if(loggedin == 0) {
-            window.location = "index.html";
+            window.location = "Buggy Website.html";
         }
         // Sign out functionality
         const signOutButton = document.querySelector("#sign-out");
