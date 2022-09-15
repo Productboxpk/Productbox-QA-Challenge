@@ -1,4 +1,5 @@
-ProductBox QA Engineer Challenge
+# ProductBox QA Engineer Challenge
+
 Hello! Your task is to test Buggy website; an html/js application that has basic sign up feature.
 Getting Started
 I have provided you the html file in this repo which you can simply download or you may fork this repository and test it.
