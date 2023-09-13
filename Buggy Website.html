@@ -30,13 +30,13 @@
             </div>
             <div class="form-group">
                 <label for="">Phone Number<span>*</span></label>
-                <input type="number" placeholder="Enter Phone Number" required>
+                <input type="tel" placeholder="Enter Phone Number" required>
             </div>
             <div id="radio-wrapper" class="form-group">
                 <div>Gender</div>
-                <input type="checkbox" name="gender">
+                <input type="radio" name="gender">
                 <label for="">Male</label>
-                <input type="checkbox" name="gender">
+                <input type="radio" name="gender">
                 <label for="">Female</label>
             </div>
             <div class="form-group">
@@ -45,14 +45,24 @@
             </div>
             <div class="form-group">
                 <label for="">Country</label>
-                <input type="text" placeholder="Enter Country">
+                <select id="country" name="country" class="form-control">
+                <option value="Afghanistan">Afghanistan</option>
+                <option value="China">China</option>
+                <option value="Japan">Japan</option>
+                <option value="Pakistan">Pakistan</option>
+            </select>
             </div>
             <div class="form-group">
                 <label for="">City</label>
                 <input type="text" placeholder="Enter City">
             </div>
             <div class="form-group">
-                <button type="submit" id="submit-btn">Agree and Join</button>
+                 <p>Terms and conditions</p>
+                <input type="checkbox" id="agree" name="agree" value="agree">
+                <label for="Agree"> Agree</label><br>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="submit-btn">Join</button>
             </div>
         </form>
     </div>
@@ -88,7 +98,6 @@
             }
             if(!email.trim()) {
                 alert("email is required");
-                window.location = "404.html";
                 return false;
             }
             localStorage.setItem("fullName", firstName + " " + lastName);
